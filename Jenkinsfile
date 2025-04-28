@@ -7,7 +7,7 @@ ahent {
 		image 'maven:3.6.3'
 	}
 }
-steages{
+stages{
 
 	stage ('build'){
     steps{
