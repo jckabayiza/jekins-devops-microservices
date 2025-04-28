@@ -4,7 +4,7 @@ pipeline{
 //Agent Any
 agent {
 	docker{
-		image 'maven:3.6.3'
+		image 'node:18.3'
 	}
 }
 stages{
